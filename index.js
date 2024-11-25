@@ -1,6 +1,6 @@
 const getMean = (array) => {
   const sum = array.reduce((acc, el) => {
-    return acc + el;
+    return acc + el, 0;
   });
 };
 
