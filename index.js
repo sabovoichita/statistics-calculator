@@ -6,4 +6,5 @@ const calculate = () => {
   const array = value.split(/,\s*/g);
   const numbers = array.map((el) => Number(el).filter((el) => !isNaN(el)));
   const mean = getMean(numbers);
+  document.querySelector("#mean").textContent = mean;
 };
