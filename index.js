@@ -14,7 +14,7 @@
 // console.log(evenListMedian);
 
 const getMedian = (array) => {
-  const sorted = array.sort((a, b) => a - b);
+  const sorted = array.toSorted((a, b) => a - b);
 };
 
 const calculate = () => {
