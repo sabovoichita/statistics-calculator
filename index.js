@@ -14,7 +14,6 @@ const getMode = (array) => {
   const counts = {};
   array.forEach((el) => (counts[el] = counts[el] ? counts[el] + 1 : 1));
   console.log(counts);
-  return counts;
 };
 
 const calculate = () => {
